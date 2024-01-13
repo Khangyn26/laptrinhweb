@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lập trình web</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <style>
+           .khangdeptrai{
+
+border-style: ridge;
+color: #333;
+font-family: Arial, sans-serif;
+font-size: 14px;
+text-align: left;
+border-radius: 10px;
+width: 380px;
+height: 200px;
+font-size: 15px;
+}
+.khangdeptrai td{
+border-collapse: none;
+}
+
+form
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+
+}
+
+caption
+{
+    font-size: 20px;
+    
+}
+
+.c1{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+border: ridge 3px rgb(8, 0, 8) ;
+width: 100%;   
+}
+.c1 td{
+border: 2px black;
+
+}
+
+#qmk{list-style: none;display: flex;padding: 10px; border: none;background-color: white;}
+#qmk{padding:5px;
+color: blue;; font-size:15px ;margin-right: 20px;display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#qmk:hover{border-radius: none;
+color:rgb(2, 1, 21);}
+
+
+#dangnhap{list-style: none;display: flex;padding: 10px; background-color: rgb(48, 96, 164);}
+#dangnhap{padding:5px;
+color: rgb(224, 214, 222);; font-size:15px ;margin-right: 20px;display: flex;
+justify-content: center;
+align-items: center;
+}
+#dangnhap:hover{border-radius: none; 
+background-color: aqua;}
+#k1{text-align: center;}
+    </style>
+    <header>
+        <table class="c1">
+            <tr>
+                <td id="a1">Home |</td>
+                <td id=" a1">Đăng nhập |</td>
+                <td id="a1">Đăng ký</td>
+            </tr>
+        </table>
+    </header>
+    <nav>
+        
+        <form name="jk" method="post">
+            <table class="khangdeptrai">
+                <caption>Màn hình cập nhật</caption>
+                <tr>
+                    <td colspan="3">
+      
+                            <tr>
+                                <td>
+                                    Username
+                                </td>
+                                <td colspan="2">
+                                    <input id="k1" type="text" name="nme" value="xxx"><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Mật khẩu
+                                </td>
+                                <td colspan="2">
+                                    <input id="k1" type="text" name="nme" value="xxx" required=""><br>
+                                </td>
+                            <tr>
+                            <tr>
+                                    <td>
+                                        Nhập lại mật khẩu
+                                    </td>
+                                    <td colspan="2">
+                                        <input id="k1" type="text" name="nme" value="xxx"><br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Email
+                                    </td>
+                                    <td colspan="2">
+                                        <input id="k1" type="text" name="nme" value="xxx" required=""><br>
+                                    </td>
+                            <tr>
+                            <tr>
+                                    <td>     
+                                    </td>
+                                    <td>
+                                        <button type="submit" id="qmk">Đã có tài khoản</button>
+                                    </td>
+                                    <td>
+                                        <button type="submit" id="dangnhap">Đăng nhập</button>
+                                    </td>
+                            </tr>  
+                            
+                        
+                        
+                    
+                    </td>
+                </tr>
+            </table>
+    </nav>
+    <footer>
+        <table class="c1">
+            <tr colspan="3">
+                <td id="a1">Lập trình web @01/2024</td>
+                
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
