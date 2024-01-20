@@ -19,7 +19,7 @@ form
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 0px;
     
 }
 
@@ -110,8 +110,9 @@ h2{
     
 }
 .thigiuaki {
-    margin-left: 35%;
+    margin-left: 31%;
     font-size: 17px;
+    margin-top: 3% ;
 }
 
 #finding{
@@ -120,4 +121,11 @@ h2{
     padding: 3px;
     font-size: 15px;
     border-radius: 7px;
+}
+.dsuser #hangdau{
+    border-bottom: 2px solid;
+}
+
+.thigiuaki input {
+    font-size: 20px;
 }
